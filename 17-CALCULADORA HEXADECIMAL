@@ -1,0 +1,116 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Ricardo Correa
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Rafaela Da Silva Sabino
+// Data atual  : 20/03/2024
+Var
+// Seção de Declarações das variáveis 
+numero: inteiro
+resto: inteiro
+resto2: inteiro
+resto3:inteiro
+resultado: inteiro
+resultado2: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   ESCREVAl("digite um número decimal: ")
+   LEIA(numero)
+
+   SE(numero < 999) ENTAO
+   resultado <- numero div 16
+   resto <- numero mod 16
+
+   resultado2 <- resultado div 16
+   resto2 <- resultado mod 16
+
+   resto3 <- resultado2 mod 16
+
+   SE(resto3 < 10) ENTAO
+   ESCREVA(resto3)
+   SENAO
+       SE(resto3 = 10) ENTAO
+       ESCREVA("A")
+       SENAO
+           SE(resto3 = 11) ENTAO
+           ESCREVA("B")
+           SENAO
+               SE(resto3 = 12) ENTAO
+               ESCREVA("C")
+               SENAO
+                   SE(resto3 = 13) ENTAO
+                   ESCREVA("D")
+                   SENAO
+                       SE(resto3 = 14) ENTAO
+                       ESCREVA("E")
+                       SENAO
+                            ESCREVA("F")
+
+             FIMSE
+           FIMSE
+         FIMSE
+       FIMSE
+     FIMSE
+   FIMSE
+
+        SE(resto2 < 10) ENTAO
+        ESCREVA(resto2)
+        SENAO
+            SE(resto2 = 10) ENTAO
+            ESCREVA("A")
+            SENAO
+                SE(resto2 = 11) ENTAO
+                ESCREVA("B")
+                SENAO
+                    SE(resto2 = 12) ENTAO
+                    ESCREVA("C")
+                    SENAO
+                        SE(resto2 = 13) ENTAO
+                        ESCREVA("D")
+                        SENAO
+                            SE(resto2 = 14) ENTAO
+                            ESCREVA("E")
+                            SENAO
+                                ESCREVA("F")
+
+                                                   FIMSE
+                                              FIMSE
+                                          FIMSE
+                                      FIMSE
+                                 FIMSE
+                            FIMSE
+
+      SE(resto < 10) ENTAO
+      ESCREVA(resto)
+      SENAO
+          SE(resto = 10) ENTAO
+          ESCREVA("A")
+          SENAO
+              SE(resto = 11) ENTAO
+              ESCREVA("B")
+              SENAO
+                  SE(resto = 12) ENTAO
+                  ESCREVA("C")
+                  SENAO
+                      SE(resto = 13) ENTAO
+                      ESCREVA("D")
+                      SENAO
+                          SE(resto = 14) ENTAO
+                          ESCREVA("E")
+                          SENAO
+                              ESCREVA("F")
+
+                                                   FIMSE
+                                              FIMSE
+                                          FIMSE
+                                      FIMSE
+                                 FIMSE
+                            FIMSE
+
+
+
+
+Fimse
+
+Fimalgoritmo
