@@ -1,0 +1,23 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Ricardo Correa e Lucas Calu
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Rafaela Da Silva Sabino
+// Data atual  : 25/03/2024
+Var
+// Seção de Declarações das variáveis
+   vetor_cores: vetor [0..100] de caracter
+   indice: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+ ENQUANTO (indice < 100) FACA
+
+ ESCREVAL("Cadastro de cores")
+ LEIA(vetor_cores[indice])
+
+
+  ESCREVAL(vetor_cores[indice])
+ FIMENQUANTO
+
+Fimalgoritmo
