@@ -1,0 +1,56 @@
+Algoritmo "nomes e idades do jantar"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Ricardo Corrêa
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Rafaela Da Silva Sabino
+// Data atual  : 01/04/2024
+Var
+// Seção de Declarações das variáveis
+  nomes_fun: vetor[1..5] de caractere
+  idades_fun: vetor[1..5] de inteiro
+  nomes_con: vetor[1..5] de caractere
+  idades_con: vetor[1..5] de inteiro
+  quantidade: inteiro
+  x: inteiro
+  resposta: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   limpatela
+
+   ESCREVAL("|----------------------------------------------------|")
+   ESCREVAL("|                                                    |")
+   ESCREVAL("|           SISTEMA DA CONFRATERNIZAÇÃO              |")
+   ESCREVAL("|                                                    |")
+   ESCREVAL("|----------------------------------------------------|")
+   ESCREVAL("")
+   ESCREVAL("Quantos funcionarios existem na empresa ?")
+   LEIA(quantidade)
+   ESCREVAL("")
+
+   PARA x de 1 ate quantidade FACA
+
+     LIMPATELA
+
+      ESCREVAL("Qual o nome do funcionario ?")
+      LEIA(nomes_fun[x])
+      ESCREVAL("Qual a sua idade ?")
+      LEIA(idades_fun[x])
+      ESCREVAL("Qual o nome de seu convidado ?")
+      LEIA(nomes_con[x])
+      ESCREVAL("Qual a idade do convidado ?")
+      LEIA(idades_con[x])
+   FIMPARA
+
+   LIMPATELA
+
+   ESCREVAL("Informe um número de 1 até " , quantidade, " para exibir os dados")
+   LEIA(resposta)
+   ESCREVAL("")
+   ESCREVAL("RESULTADOS:-------------------")
+   ESCREVAL("Nome do funcionario: " + nomes_fun[resposta])
+   ESCREVAL("Idade do funcionario = ", idades_fun[resposta])
+   ESCREVAL("Nome do convidado: " , nomes_con[resposta])
+   ESCREVAL("Idade do convidado = ", idades_con[resposta])
+
+Fimalgoritmo
